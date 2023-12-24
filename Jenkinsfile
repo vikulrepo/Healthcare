@@ -23,7 +23,7 @@ pipeline{
        } 
        stage('docker-mage build'){
          steps{
-           sh 'docker build -t bharath0812/healthcare:1.0 .
+           sh 'docker build -t bharath0812/healthcare:1.0' .
          }
        }
     }
