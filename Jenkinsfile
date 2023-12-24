@@ -10,7 +10,7 @@ pipeline{
              git branch: 'dev', url: 'https://github.com/bharah08/Healthcare.git'
          }
      }
-       stage('unit-testing){
+       stage('unit-testing'){
            steps{
                sh 'mvn test'
            }
