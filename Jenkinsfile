@@ -29,7 +29,7 @@ pipeline{
          stage('deploy'){
          steps{
            sshagent(['docker-test-server']) {
-    sh 'ssh -o StrictHostKeyChecking=no ubuntu@3.7.253.199 sudo docker run -d --name test1 -p 8082:8082  bharath0812/healthcare 
+    sh 'ssh -o StrictHostKeyChecking=no ubuntu@3.7.253.199 sudo docker run -d --name test1 -p 8082:8082  bharath0812/healthcare'
 }
          }
        }
