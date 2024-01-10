@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: bharath0812/healthcare:2.o
+        image: bharath0812/healthcare:2.0
         ports:
         - containerPort: 8082
 ---
